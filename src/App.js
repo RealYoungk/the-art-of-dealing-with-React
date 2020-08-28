@@ -4,7 +4,9 @@ import MyComponent from "./MyComponent";
 const App = () => {
   return (
     <div>
-      <MyComponent />
+      <MyComponent name="React" favorateNumber={3}>
+        리액트
+      </MyComponent>
     </div>
   );
 };
